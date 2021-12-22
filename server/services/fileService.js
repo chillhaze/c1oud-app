@@ -1,6 +1,5 @@
 const fs = require("fs");
 const File = require("../models/File");
-
 const config = require("config");
 
 class FileService {
@@ -31,7 +30,7 @@ class FileService {
   }
 
   getPath(req, file) {
-    return require.filePath + "\\" + file.user + "\\" + file.path;
+    return req.filePath + "\\" + file.user + "\\" + file.path;
   }
 }
 
