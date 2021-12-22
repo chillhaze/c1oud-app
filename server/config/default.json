@@ -1,6 +1,6 @@
 {
   "serverPort": 5000,
-  "dbUrl": "mongodb+srv://aaaaaa:aaaaaa333@c1oud.2xqgs.mongodb.net/c1oud?retryWrites=true&w=majority",
-  "secretKey": "sda465das45ds",
-  "filePath": "D:\\React projects\\c1oud\\server\\files"
+  "dbUrl": "",
+  "secretKey": "",
+  "filePath": ""
 }
